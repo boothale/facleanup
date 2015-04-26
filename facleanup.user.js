@@ -11,6 +11,8 @@
 // @version     2
 // ==/UserScript==
 
+console.log('Running FA Cleanup');
+
 var tables = document.querySelectorAll('.maintable'),
     descTable = tables[2],
     descHead = descTable.querySelectorAll('td')[0],
