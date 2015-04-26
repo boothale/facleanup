@@ -1,5 +1,6 @@
 // ==UserScript==
 // @name        FA Cleanup
+// @author      Erra Boothale <erra@boothale.net>
 // @namespace   http://boothale.net/
 // @description Fixes various annoyances with FA's user interface
 // @include     http://www.furaffinity.net/view/*
