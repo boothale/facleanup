@@ -7,6 +7,8 @@
 // @include     https://www.furaffinity.net/view/*
 // @include     http://www.furaffinity.net/full/*
 // @include     https://www.furaffinity.net/full/*
+// @updateURL   http://boothale.net/facleanup.user.js
+// @version     2
 // ==/UserScript==
 
 var tables = document.querySelectorAll('.maintable'),
