@@ -5,6 +5,8 @@
 // @description Fixes various annoyances with FA's user interface
 // @include     http://www.furaffinity.net/view/*
 // @include     https://www.furaffinity.net/view/*
+// @include     http://www.furaffinity.net/full/*
+// @include     https://www.furaffinity.net/full/*
 // ==/UserScript==
 
 var tables = document.querySelectorAll('.maintable'),
