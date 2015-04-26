@@ -1,6 +1,6 @@
 FA Cleanup
 
-    Greasemonkey extension designed to fix various annoyances with FA's user interface
+    Greasemonkey extension designed to fix various annoyances with FA's UI
     Please direct any questions or comments to erra@boothale.net
 
 INSTALLING
@@ -12,7 +12,8 @@ INSTALLING
 
     2) Visit http://boothale.net/facleanup.user.js and choose "Install" when prompted.
 
-    3) Visit FA and ensure the script is working. If it isn't, try re-enabling it and restart your browser.
+    3) Visit FA and ensure the script is working.
+       If it isn't, try re-enabling it and restart your browser.
 
 LICENSE
 
