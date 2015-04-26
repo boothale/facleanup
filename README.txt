@@ -1,6 +1,6 @@
 FA Cleanup
 
-    Greasemonkey extension designed to fix various annoyances with FA's UI
+    Greasemonkey script designed to fix various annoyances with FA's UI
     Please direct any questions or comments to erra@boothale.net
 
 INSTALLING
