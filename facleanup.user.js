@@ -8,10 +8,8 @@
 // @include     http://www.furaffinity.net/full/*
 // @include     https://www.furaffinity.net/full/*
 // @updateURL   http://boothale.net/scripts/facleanup.user.js
-// @version     2
+// @version     3
 // ==/UserScript==
-
-console.log('Running FA Cleanup');
 
 var tables      = document.querySelectorAll('.maintable'),
     descTable   = tables[2],
@@ -21,7 +19,12 @@ var tables      = document.querySelectorAll('.maintable'),
     sideRow     = sideTable.parentNode,
     sideContent = sideTable.querySelectorAll('td')[1];
 
-description.appendChild(sideContent);
-sideRow.parentNode.removeChild(sideRow);
-descHead.setAttribute('colspan', '2');
+if (sideTable.textContent.indexOf('Sidebar') != -1) {
+    console.log('FA Cleanup: Moving sidebar');
+    description.appendChild(sideContent);
+    sideRow.parentNode.removeChild(sideRow);
+    descHead.setAttribute('colspan', '2');
+} else {
+    console.log('FA Cleanup: Sidebar not detected');
+}
 
