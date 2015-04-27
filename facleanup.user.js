@@ -7,7 +7,7 @@
 // @include     https://www.furaffinity.net/view/*
 // @include     http://www.furaffinity.net/full/*
 // @include     https://www.furaffinity.net/full/*
-// @updateURL   http://boothale.net/scripts/facleanup.user.js
+// @downloadURL https://boothale.net/scripts/facleanup.user.js
 // @version     3
 // ==/UserScript==
 
