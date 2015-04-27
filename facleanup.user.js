@@ -13,12 +13,12 @@
 
 console.log('Running FA Cleanup');
 
-var tables = document.querySelectorAll('.maintable'),
-    descTable = tables[2],
-    descHead = descTable.querySelectorAll('td')[0],
+var tables      = document.querySelectorAll('.maintable'),
+    descTable   = tables[2],
+    descHead    = descTable.querySelectorAll('td')[0],
     description = descTable.querySelectorAll('tr')[1],
-    sideTable = tables[3],
-    sideRow = sideTable.parentNode,
+    sideTable   = tables[3],
+    sideRow     = sideTable.parentNode,
     sideContent = sideTable.querySelectorAll('td')[1];
 
 description.appendChild(sideContent);
